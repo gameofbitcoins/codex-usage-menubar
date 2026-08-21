@@ -1,0 +1,6 @@
+{
+  "files_scanned": 7,
+  "source_findings": [],
+  "zip_findings": [],
+  "note": "Source/release-content scan only; ZIP checksum is published separately because embedding a final ZIP hash inside that ZIP is self-referential."
+}
