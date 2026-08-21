@@ -4,7 +4,7 @@ A small native macOS menu-bar utility that shows Codex usage limits without open
 
 > **Unofficial project.** This project is not affiliated with, endorsed by, or maintained by OpenAI. Codex, ChatGPT, and OpenAI are trademarks of their respective owner.
 
-![Codex Usage menu-bar preview](assets/codex-usage-menubar.png)
+![Codex Usage menu-bar preview](assets/codex-usage-menubar.jpg)
 
 ## What it shows
 
