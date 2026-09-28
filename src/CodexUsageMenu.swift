@@ -312,8 +312,13 @@ private final class CodexUsageService {
         }
 
         let known = [
-            // Current ChatGPT/Codex desktop apps bundle the local app-server
-            // executable here. Prefer these before requiring a standalone CLI.
+            // Recent desktop apps bundle the CLI inside CodexCLI.app.
+            "/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex",
+            "/Applications/Codex.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex",
+            NSHomeDirectory() + "/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex",
+            NSHomeDirectory() + "/Applications/Codex.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex",
+
+            // Older desktop app bundles placed the executable here.
             "/Applications/ChatGPT.app/Contents/Resources/codex",
             "/Applications/Codex.app/Contents/Resources/codex",
             NSHomeDirectory() + "/Applications/ChatGPT.app/Contents/Resources/codex",
